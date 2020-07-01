@@ -66,7 +66,7 @@ main::after {
 }
 
 main {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -104,6 +104,7 @@ main {
 .center h2 {
   padding: 20px;
   color: grey;
+  text-shadow: 2px 2px lightgrey;
 }
 
 .center p{
@@ -132,10 +133,20 @@ footer {
   margin: auto;
 }
 
-.content {
-  height: 270px;
-  background-color: #CC87DA;
-  margin-bottom: 10px;
+.widget {
+  background-color:white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.widget h2{
+  padding: 20px;
+  color: grey;
+}
+
+.widget p {
+  padding: 20px;
+  font-size: 20px;
 }
 
 .container {
