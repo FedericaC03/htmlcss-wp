@@ -7,6 +7,12 @@ body {
   background-image: url(../img/natural-default-pattern.png);
   font-family: sans-serif;
 }
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
+
 header {
   height: 400px;
 }
@@ -18,7 +24,7 @@ header {
   border: 10px solid #f3f3f4;
 }
 
-.prova {
+.title {
   top:50%;
   left: 50%;
   position:absolute;
@@ -28,7 +34,7 @@ header {
   font-size: 25px;
 }
 
-.prova h1 {
+.title h1 {
   border: 5px solid #f3f3f4;
   display: inline-block;
   padding: 2px 10px;
@@ -39,7 +45,6 @@ nav {
   background-color: #666666;
   height: 10%;
   text-align: center;
-
 }
 
 .menu li {
@@ -75,6 +80,13 @@ main {
   float: left;
 }
 
+.left {
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+
 .left i {
   color: orange;
   display: inline-block;
@@ -87,10 +99,22 @@ main {
   list-style: none;
   padding: 10px;
 }
+
 .left li a{
   text-decoration: none;
   font-size: 20px;
   color: green;
+}
+
+.left li a:hover{
+  text-decoration: underline;
+}
+
+.left h2{
+  display: inline-block;
+  width: 50%;
+  font-size: 30px;
+  color: grey;
 }
 
 .center {
@@ -112,20 +136,6 @@ main {
   font-size: 20px;
 }
 
-.left {
-  background-color: white;
-  padding: 10px;
-  text-align: left;
-  border-radius: 5px;
-}
-
-.left h2{
-  display: inline-block;
-  width: 50%;
-  font-size: 30px;
-  color: grey;
-}
-
 .widget {
   background-color:white;
   margin-bottom: 20px;
@@ -140,11 +150,6 @@ main {
 .widget p {
   padding: 20px;
   font-size: 20px;
-}
-
-.container {
-  margin: auto;
-  width: 1000px;
 }
 
 footer {
