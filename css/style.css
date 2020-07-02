@@ -56,12 +56,12 @@ nav {
   color: white;
   line-height: 40px;
   vertical-align:middle;
-  font-family: sans-serif;
   padding: 10px;
 }
 
 .menu li:hover {
   background-color: #383639;
+  border-bottom: 2px solid white;
 }
 
 main::after {
@@ -164,6 +164,7 @@ footer {
   text-align: center;
   color: lightgrey;
   border-bottom: 1px solid lightgrey;
+  font-style: italic;
 }
 
 .social {
